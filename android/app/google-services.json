@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "801266801472",
+    "project_id": "chat-eela-a57f1",
+    "storage_bucket": "chat-eela-a57f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801266801472:android:aedd63b7d15a5c686ff8a5",
+        "android_client_info": {
+          "package_name": "com.example.chat_eela"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ8AYQNJh6Zw9t_XTTWrHYQpZwNRXWqGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

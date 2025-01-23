@@ -1,6 +1,5 @@
+import 'package:chat_eela/src/app/app_navigator.dart';
 import 'package:chat_eela/src/core/ui/ui.dart';
-import 'package:chat_eela/src/features/login/page/login_page.dart';
-import 'package:chat_eela/src/features/login/page/sign_up_page.dart';
 import 'package:chat_eela/src/features/login/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -90,20 +89,10 @@ class OnboardingPage extends StatelessWidget {
                   ),
                   const OnboardingDivider(),
                   OnboardingButton(
-                    onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const SignUpPage(),
-                      ),
-                    ),
+                    onTap: () => AppNavigator.navigateToLogin(context),
                   ),
                   TextButton(
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const LoginPage(),
-                      ),
-                    ),
+                    onPressed: () => AppNavigator.navigateToSignUp(context),
                     child: RichText(
                       text: TextSpan(
                         text: 'Existing account? ',
